@@ -1,0 +1,100 @@
+/* product section************************************************************************************ */
+.product-sec-new{
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+ .shoping-card {
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    margin: 10px 15px;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+
+ .shoping-card .img-sec {
+   position: relative;
+ }
+
+ .shoping-card .img-sec img {
+    width: 60%;
+    border-radius: 50px;
+    background-color: black;
+ }
+
+ .shoping-card .img-sec .hot-offer{
+    background-color:#f39c12;
+    color: white;
+    padding: 3px 5px ;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1.5em;
+    }
+
+ .shoping-card .img-sec .stars {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color:#f39c12
+    ;
+ }
+
+
+
+ .shoping-card .title{
+    color: #333;
+    margin: 15px;
+ }
+
+ .shoping-card .button {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:  5px 15px;
+    border: 0.5px solid #333;
+    border-radius: 20px;
+    border-bottom: 1px solid #333;
+ }
+
+ .shoping-card .button .right {
+    color: #666;
+    font-weight: bold;
+ }
+
+ .shoping-card .button .left {
+    display: flex;
+ }
+ .shoping-card .button .left .extend-btn{
+    display: flex;
+    margin-left: 16px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1abc9c;
+    color: white;
+    width: 40px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.75s;
+ }
+ .shoping-card .button .left .extend-btn:hover{
+    width: 80px;
+ }
+ .shoping-card .button .left .extend-btn .b-text{
+    display: none;
+    color:white;
+    transition: 3s;
+ }
+ .shoping-card .button .left .extend-btn:hover .b-text{
+display: flex;
+ } 
+ .shoping-card .button .left .extend-btn a i{
+    color: white;
+    padding top: 3px;;
+ }
+
+
+
